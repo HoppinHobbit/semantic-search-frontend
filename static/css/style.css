@@ -1,31 +1,50 @@
-body { background: #141414; color: white; font-family: arial; text-align: center; }
-#logo { width: 300px; }
-input { font-size: 20px; padding: 5px;     border-radius: 5px;
+body {
+    background: #121212; /* Slightly darker than your original */
+    color: #E0E0E0; /* A softer white for text */
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
+
+#logo {
+    width: 300px;
+}
+
+input {
+    font-size: 18px; /* slightly smaller for minimalism */
+    padding: 10px;
+    border-radius: 5px;
+    background: #1A1A1A; /* Dark background for input */
+    color: #E0E0E0; /* Light text color */
+    border: none; /* Removing border */
+}
+
 input[type=submit] { 
-    background: black; 
-    color: white; 
-    border: solid white 1px; 
+    background: #333333; /* Darker shade for button */
+    color: #E0E0E0;
+    border: none;
 }
 
 #results {
     text-align: left;
     width: 800px;
-    border: solid white 1px;
     margin: 20px auto;
     padding: 20px;
-    background: white;
-    color: black;
-    border-radius: 20px;
+    background: #1A1A1A; /* Dark background */
+    color: #E0E0E0; /* Light text color */
+    border-radius: 10px; /* Smaller radius for a sleek look */
+    border: none; /* Removing border */
 }
 
 h1 { 
     margin-left: 50px;
+    color: #E0E0E0; /* Ensuring h1 is also light colored */
 }
+
 ul {
     list-style-type: none;
 }
+
 li {
     padding: 10px;
+    color: #E0E0E0; /* Ensuring list items are also light colored */
 }
-  
